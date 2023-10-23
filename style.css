@@ -1,0 +1,156 @@
+html, body {
+  margin: 0;
+  background-color: #FDE4F2;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+}
+
+main {
+  width: 290px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Marcellus', serif;
+  color: #C4728A;
+  text-shadow: 2px 2px #fff;
+}
+
+img {
+  width: 48px; 
+  height: 48px;
+  border-radius: 50%;
+}
+
+.profile-pic-img {
+  margin: auto;
+}
+
+.post-input-container {
+  display: flex; 
+  align-items: start;
+  gap: 10px;
+  margin-top: 30px;
+  border-top: 2.5px solid #C4728A;
+  padding: 20px; 
+}
+
+.post-input-textarea{
+  border: none;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  background-color: #FDE4F2;
+}
+
+.post-btn-container {
+  border-bottom: 2.5px solid #C4728A;
+  display: flex; 
+  justify-content: center;
+}
+
+button {
+  border: none;
+  margin-bottom: 15px; 
+  padding: 10px 20px; 
+  border-radius: 20px;
+  font-family: inherit;
+  background-color: #C4728A;
+  color: white;
+  cursor: pointer;
+  font-weight: 700; 
+}
+
+button:hover {
+  background-color: #fff;
+  color: #C4728A;
+}
+
+
+.post {
+  margin-top: 20px;
+}
+
+.post-inner {
+  display: flex; 
+  align-items: flex-start;
+  gap: 10px; 
+  border-bottom: 2.5px solid #C4728A;
+  padding-bottom: 20px;
+}
+
+
+.post-details {
+  display: flex;
+  justify-content: space-between; 
+  width: 160px;
+  font-size: 13px;
+}
+
+.post-detail {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.handle {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+
+.fa-solid{
+  color: #999;
+}
+
+.post-reply{
+  padding: 20px 0 0 0px;
+  margin: 0 0 0 40px;
+  width: 86.5%;
+}
+
+.reply-btn {
+  margin: 15px 0 15px 40px;
+}
+
+.reply-textarea {
+  border: 3px solid #C4728A;
+  padding: 10px;
+  resize: none;
+  width: 86.5%;
+  margin: 15px 0 0 40px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  background-color: #FDE4F2;
+}
+/* liked button pressed */
+.red {
+  color: red;
+}
+
+/* repost button pressed */
+
+.green {
+  color: green;
+}
+
+
+/* hidden class for replies */
+
+.hidden {
+  display: none;
+}
+
+footer {
+margin-bottom: 50px;
+}
